@@ -82,3 +82,12 @@ body {
 .slider__dot:hover {
   background: #fff;
 }
+
+p {
+  font-size: 40px;
+  color: chartreuse;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  
+}
