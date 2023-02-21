@@ -8,6 +8,7 @@ function activeSlide(slide) {
 }
 
 let currentSlide = sliderImages.findIndex(activeSlide);
+//let currentSlide = sliderImages.findIndex(slide => slide.classList.contain('slider__item_active'));
 
 function removeCurrent() {
     sliderImages[currentSlide].classList.remove('slider__item_active');
